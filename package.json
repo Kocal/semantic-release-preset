@@ -2,11 +2,25 @@
   "name": "@yproximite/semantic-release-preset",
   "version": "0.0.0-development",
   "description": "Yproximite's Semantic Release preset",
+  "files": ["index.js"],
   "main": "index.js",
   "repository": "https://github.com/Yproximite/semantic-release-preset.git",
   "author": "Hugo Alliaume <kocal@live.fr>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/github": "^5.2.1",
+    "@semantic-release/npm": "^5.0.6",
+    "@semantic-release/release-notes-generator": "^7.1.4"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.10.8",
+    "travis-deploy-once": "^5.0.9"
   }
 }
