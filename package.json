@@ -11,7 +11,8 @@
     "access": "public"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once --pro"
   },
   "dependencies": {
     "@semantic-release/commit-analyzer": "^6.1.0",
