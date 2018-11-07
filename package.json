@@ -1,0 +1,12 @@
+{
+  "name": "@yproximite/semantic-release-preset",
+  "version": "0.0.0-development",
+  "description": "Yproximite's Semantic Release preset",
+  "main": "index.js",
+  "repository": "https://github.com/Yproximite/semantic-release-preset.git",
+  "author": "Hugo Alliaume <kocal@live.fr>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
