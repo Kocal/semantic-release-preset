@@ -1,6 +1,7 @@
 Semantic Release preset
 =======================
 
+[![npm (scoped)](https://img.shields.io/npm/v/@yproximite/semantic-release-preset.svg)](https://www.npmjs.com/package/@yproximite/semantic-release-preset)
 [![Build Status](https://travis-ci.com/Yproximite/semantic-release-preset.svg?token=pNBs2oaRpfxdyhqWf28h&branch=master)](https://travis-ci.com/Yproximite/semantic-release-preset)
 
 ## Features
