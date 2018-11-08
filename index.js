@@ -8,7 +8,9 @@ module.exports = {
     }],
     ['@semantic-release/release-notes-generator', {
       preset: 'angular',
-      transform: releaseNotesGeneratorTransform,
+      writerOpts: {
+        transform: releaseNotesGeneratorTransform
+      },
     }],
     ['@semantic-release/github', {
       successComment: false,
