@@ -24,7 +24,7 @@ script:
   - true
 
 after_success:
-  - yarn travis-deploy-once "yarn semantic-release"
+  - yarn semantic-release
 
 branches:
   except:
