@@ -46,6 +46,9 @@ function releaseNotesGeneratorTransform(commit, context) {
   } else if (commit.type === `test`) {
     return;
   } else if (commit.type === `build`) {
+    if (['dev-deps', 'devDeps'].includes(commit.scope)) {
+      return;
+    }
     commit.type = `Build System`;
   } else if (commit.type === `ci`) {
     return;
