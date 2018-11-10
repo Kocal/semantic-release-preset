@@ -7,7 +7,7 @@ Semantic Release preset
 ## Features
 
  - Analyze commits by using `angular` preset, commits `build(deps)` are seen as patch 
- - Generate a changelog by using `angular` preset, it will add an entry for every commit types (feat, fix, perf, revert, docs, style, refactor, test, build, ci)
+ - Generate a changelog by using `angular` preset, it will add an entry for every commit types (feat, fix, perf, revert, docs, refactor, build)
  - Publish the release on GitHub, with a tag and a changelog
  - Publish the release on NPM, with a tag
 
