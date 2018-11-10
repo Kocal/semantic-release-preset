@@ -40,15 +40,17 @@ function releaseNotesGeneratorTransform(commit, context) {
   } else if (commit.type === `docs`) {
     commit.type = `Documentation`;
   } else if (commit.type === `style`) {
-    commit.type = `Styles`;
+    return;
   } else if (commit.type === `refactor`) {
     commit.type = `Code Refactoring`;
   } else if (commit.type === `test`) {
-    commit.type = `Tests`;
+    return;
   } else if (commit.type === `build`) {
     commit.type = `Build System`;
   } else if (commit.type === `ci`) {
-    commit.type = `Continuous Integration`;
+    return;
+  } else if (commit.type === `chore`) {
+    return;
   }
 
   if (commit.scope === `*`) {
