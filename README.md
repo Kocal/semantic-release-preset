@@ -1,8 +1,8 @@
 Semantic Release preset
 =======================
 
-[![npm (scoped)](https://img.shields.io/npm/v/@yproximite/semantic-release-preset.svg)](https://www.npmjs.com/package/@yproximite/semantic-release-preset)
-[![Build Status](https://travis-ci.com/Yproximite/semantic-release-preset.svg?token=pNBs2oaRpfxdyhqWf28h&branch=master)](https://travis-ci.com/Yproximite/semantic-release-preset)
+[![npm (scoped)](https://img.shields.io/npm/v/@kocal/semantic-release-preset.svg)](https://www.npmjs.com/package/@kocal/semantic-release-preset)
+[![Build Status](https://travis-ci.com/Kocal/semantic-release-preset.svg?branch=master)](https://travis-ci.com/Kocal/semantic-release-preset)
 
 ## Features
 
@@ -14,7 +14,7 @@ Semantic Release preset
 ## Installation
 
 ```bash
-$ yarn add -D @yproximite/semantic-release-preset 
+$ yarn add -D @kocal/semantic-release-preset 
 ```
 
 **Note:** semantic-release should be installed too.
@@ -25,6 +25,6 @@ In Semantic Release configuration file:
 
 ```json
 {
-  "extends": "@yproximite/semantic-release-preset"
+  "extends": "@kocal/semantic-release-preset"
 }
 ```
