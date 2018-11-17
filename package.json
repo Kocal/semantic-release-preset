@@ -2,7 +2,9 @@
   "name": "@kocal/semantic-release-preset",
   "version": "0.0.0-development",
   "description": "Kocal's Semantic Release preset",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "repository": "https://github.com/Kocal/semantic-release-preset.git",
   "author": "Hugo Alliaume <kocal@live.fr>",
@@ -11,7 +13,8 @@
     "access": "public"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once --pro"
   },
   "dependencies": {
     "@semantic-release/commit-analyzer": "^6.1.0",
@@ -20,7 +23,8 @@
     "@semantic-release/release-notes-generator": "^7.1.4"
   },
   "devDependencies": {
-    "semantic-release": "^15.10.8"
+    "semantic-release": "^15.10.8",
+    "travis-deploy-once": "^5.0.9"
   },
   "peerDependencies": {
     "semantic-release": "^15.10.8"
