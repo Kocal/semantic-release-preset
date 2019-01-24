@@ -14,10 +14,8 @@ Semantic Release preset
 ## Installation
 
 ```bash
-$ yarn add -D @kocal/semantic-release-preset 
+$ yarn add -D semantic-release @kocal/semantic-release-preset
 ```
-
-**Note:** semantic-release should be installed too.
 
 ## Usage
 
