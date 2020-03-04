@@ -1,6 +1,7 @@
 Semantic Release preset
 =======================
 
+[![npm (scoped)](https://img.shields.io/npm/v/@kocal/semantic-release-preset.svg)](https://www.npmjs.com/package/@kocal/semantic-release-preset)
 ![Node CI](https://github.com/Kocal/semantic-release-preset/workflows/Node%20CI/badge.svg)
 
 ## Features
